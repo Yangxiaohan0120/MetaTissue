@@ -2,13 +2,13 @@
 
 # Prerequisites
 1.nominal files :
-header must includes
+header must includes with this order
 ```bash
 gene_id	variant_id	tss_distance	pval_nominal	slope	slope_se
 ```
 
 2.significant pairs files :
-header must includes
+header must includes with this order
 ```bash
 variant_id	gene_id	
 ```
@@ -39,7 +39,7 @@ RSID	#STUDY	PVALUE_FE	BETA_FE	STD_FE	PVALUE_RE	BETA_RE	STD_RE	PVALUE_RE2	STAT1_R
 3.parameter files like
 contains 4 rows including this Dir Path, sig_list files, nominal_list files, and your output
 ```bash
-#This is where the Java files Dir is
+#This is where the Java files Dir is （this Dir）
 /data2/xiaohan/jar/metasoft
 # This is a file contains where sig files are (file in parameters 1)
 /data2/xiaohan/metasoft/testoutput/sigpairs.txt
